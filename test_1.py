@@ -15,5 +15,5 @@ def test_booleano():
 def test_lista():
     assert main.lista == [main.entero, main.decimal, main.texto, main.booleano]
     
-def test_dict():
-    assert main.dict == {'entero': main.entero, 'decimal': main.decimal, 'texto': main.texto, 'booleano': main.booleano, 'lista': main.lista}
+def test_diccionario():
+    assert main.diccionario == {'entero': main.entero, 'decimal': main.decimal, 'texto': main.texto, 'booleano': main.booleano, 'lista': main.lista}
